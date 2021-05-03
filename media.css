@@ -1,0 +1,212 @@
+
+/* meadia quary */
+@media(max-width:1024px){
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    .img-wrapper .hire-me{
+        left: 50px;
+    }
+    #skill .grid{
+        grid-gap: 2rem;
+    }
+    .skill-wrapper{
+        margin-top: 20px;
+    }
+    .html{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:768px){
+   h1{
+       font-size: 30px;
+   }
+   p{
+       font-size: .8rem;
+   }
+   button{
+       padding: .8rem 1rem;
+   }
+   .grid21{
+       gap: 50px;
+   }
+   #about{
+       padding: 20px;
+   }
+   .about-info .active{
+       font-size: 15px;
+   }
+   #projects .grid{
+       grid-template-columns: repeat(3, 1fr);
+       gap: 60px 20px;
+       margin-top: 60px;
+   }
+   .contact-form{
+       height: 400px;
+   }
+   .contact-img{
+       margin-right: 50px;
+   }
+   .contact-img img{
+       height: 400px;
+   }
+   .forground{
+       height: 400px;
+   }
+   .img-wrapper .hire-me{
+       bottom: 40px;
+       left: 24px;
+   }
+   button{
+       padding: .8rem .9rem;
+   }
+   .contact-button{
+       bottom: 0px;
+   }
+   .img-wrapper .text{
+       left: 36px;
+   }
+   .navbar ul li{
+       font-size: 1.2rem;
+   }
+}
+@media(max-width:426px){
+    .navbar ul li{
+        padding: 12px;
+        font-size: .9rem;
+    }
+    button{
+        padding: .5rem;
+        font-size: .6rem;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .about-img{
+        margin: 0 auto;
+    }
+    .about-info p{
+        padding-top: 5px;
+        line-height: 1.3;
+        font-size: .8rem;
+    }
+    #about img{
+        height: 88%;
+    }
+    #about .grid{
+        grid-template-columns: 1fr;
+    }
+    .grid21{
+        gap: 0;
+    }
+    #about{
+        padding: 10px;
+        margin-top:200px;
+    }
+    .about-info p{
+        margin-bottom: 5px;
+    }
+    .about-info h2{
+        margin-bottom: 0;
+    }
+    h1.tc{
+        margin-top: 40px;
+    }
+    .about-info h2{
+        font-size: 20px;
+    }
+    .process{
+        width: 80px;
+        height: 80px;
+    }
+    .round__border{
+        width: 20px;
+        height: 20px;
+    }
+    #skill .grid{
+        grid-gap: 15px;
+    }
+    .round__border__css{
+        width: 20px;
+        height: 20px; 
+    }
+    .round__border__java{
+        width: 20px;
+        height: 20px; 
+    }
+    .html h2{
+        font-size: 1rem;
+    }
+    #projects .grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    #projects h3{
+        font-size: 14px;
+    }
+    .contact-img{
+        display: none;
+    }
+    .contact-form{
+        margin: 0 20px;
+        width: 380px;
+        padding: 2rem;
+    }
+    p#hid{
+        display: none;
+    }
+    .about-wrapper{
+        margin-top: 50px;
+    }
+}
+@media(max-width:376px) {
+    .container{
+        padding: 0 40px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    #hero .container p{
+        line-height: 1.5;
+    }
+    .navbar ul li{
+        font-size: .7rem;
+    }
+    #skill .grid{
+        grid-gap: 10px;
+    }
+    .skill-wrapper.grid {
+        margin-top: 50px;
+    }
+    .html{
+        margin-bottom: 30px;
+    }
+    .contact-form{
+        width: 350px;
+    }
+    .contact-form form > div h3{
+        font-size: 15px;
+    }
+    .contact-form input{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        padding: 20px;
+    }
+    .navbar ul li{
+        padding: 12px 9px;
+    }
+    #skill .grid{
+        grid-gap: 9px;
+    }
+    .html h2{
+        font-size: .8rem;
+    }
+    .contact-form{
+        width: 295px;
+    }
+}
